@@ -14,3 +14,11 @@
 # Sudo Coding
 - It is a translation of your code
 - This is very handy due to the fact that business and product owners don't always know the technical terms for code.
+
+## Task
+ **Create 3 variables to get user data:**
+ - name
+ - DOB
+ - age
+ 
+ **Display all the information with their data types**
