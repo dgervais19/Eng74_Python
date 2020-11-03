@@ -40,20 +40,32 @@
 # print(mixed_shopping_list)
 
 # Task: Create a mixed data type list of 7 items
-# Display the type of data
-# add, delete, replace, pop
-# use indexing to print the list in reverse order
-
 list = [1, 2, 3, "four", "five", "six", 7]
 
+# Display the type of data
 for item in list:
      print(type(item))
 
-list.append("eight")
-list.remove("four")
-list[2] = 5
-list.pop()
+# add, delete, replace, pop
+# list.append("eight")
+# list.remove("four")
+# list[2] = 5
+# list.pop()
 
-print(list[::-1])
+# use indexing to print the list in reverse order
+# print(list[::-1])
+
+
+#### TUPLES!!
+
+# Tupples are IMMUTABLE - CANNOT BE CHANGED
+# Use case: NI number, DOB, place of birth
+
+# Syntax: we use () to declare a Tuple
+
+short_list = ("paracetemol", "eggs", "supermalt")
+print(type(short_list))
+short_list[1] = "fruits" # This code throws an error because tuples do not allow us to change anything
+print(short_list)
 
 
